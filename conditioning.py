@@ -3,7 +3,7 @@ on = false
 
 if temp > 80:
   on = true
-elif temp < 50:
+elif temp < 67:
   on = false
 
 bestgayship = Aedan_Hans
