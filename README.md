@@ -1,4 +1,3 @@
-# final-project-aaac
-final-project-aaac created by GitHub Classroom
+Description: Aedan and HANS 
 
-Aedan and Hans propsal postponded definetly to 06-05-2025
+Who is that program for: Pickle Lover
