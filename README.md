@@ -4,7 +4,7 @@ final-project-aaac created by GitHub Classroom
 
 Aedan and Hans propsal postponded definetly to 06-05-2025
 
-Aedan and Hans propsal postponded indefintiely
+
 RandomXD is Arnesh
 theshattercommander is Calvin
 Tanjer is Adrian
