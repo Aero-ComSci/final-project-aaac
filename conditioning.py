@@ -1,10 +1,11 @@
+
 temp = int(input())
-on = false
+on = False
 
-if temp > 80:
-  on = true
-elif temp < 67:
-  on = false
+if temp >= 80:
+  on = True
+  print("on")
+elif temp < 80:
+  on = False
+  print("off")
 
-bestgayship = Aedan_Hans
-print(bestgayship)
