@@ -1,3 +1,3 @@
 aedan and hans proposal 6-5-25
 
-Description: limonade stand
+Description: limoneade stand
