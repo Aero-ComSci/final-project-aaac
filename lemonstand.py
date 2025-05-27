@@ -1,12 +1,6 @@
-temp = int(input())
-on = False
+def lemon_stand():
 
-if temp >= 80:
-  on = True
-  print("on")
-elif temp < 80:
-  on = False
-  print("off")
+
 
 
 
