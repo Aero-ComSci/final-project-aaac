@@ -8,4 +8,4 @@ Aedan and Hans propsal postponded definetly to 06-05-2025
 RandomXD is Arnesh
 theshattercommander is Calvin
 Tanjer is Adrian
-Hans took my "" is Aedan
+Hans took my love is Aedan
