@@ -1,4 +1,3 @@
-
 temp = int(input())
 on = False
 
@@ -8,4 +7,6 @@ if temp >= 80:
 elif temp < 80:
   on = False
   print("off")
+
+
 
