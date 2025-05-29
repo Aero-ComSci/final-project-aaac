@@ -1,6 +1,6 @@
 def lemon_stand():
 
-ice_amount = [little,moderate,large,all]
+ice_amount = [none,little,moderate,large,all]
 
 
 
