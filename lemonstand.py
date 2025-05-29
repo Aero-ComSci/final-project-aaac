@@ -1,5 +1,3 @@
-#Ordering a lemonade during a hot summer day
-
 import tkinter as tk
 
 prices = {
@@ -7,17 +5,24 @@ prices = {
     "Medium": 3.00,
     "Large": 4.00
 }
+
 order = []
 
-def add_to_order(size, ice):
+def add_to_order(size, ice, grape):
     """Adds an item to the order list."""
     ice_status = "Ice" if ice.get() else "No Ice"
-    order.append((size, prices[size], ice_status))
+    grape_status = "With 1 Grape" if grape.get() else "No Grape"
+    item_price = prices[size] + (0.50 if grape.get() else 0)
+    order.append((size, item_price, ice_status, grape_status))
     update_receipt()
 
 def update_receipt():
     """Updates the receipt field."""
-    receipt_text.set("\n".join([f"{item[0]} - ${item[1]:.2f} ({item[2]})" for item in order]))
+    receipt_lines = []
+    for item in order:
+        line = f"{item[0]} - ${item[1]:.2f} ({item[2]}, {item[3]})"
+        receipt_lines.append(line)
+    receipt_text.set("\n".join(receipt_lines))
 
 def calculate_total():
     """Calculates and shows the total cost."""
@@ -40,7 +45,11 @@ ice_var = tk.BooleanVar()
 ice_checkbox = tk.Checkbutton(root, text="Ice", variable=ice_var)
 ice_checkbox.pack()
 
-add_button = tk.Button(root, text="Add to Order", command=lambda: add_to_order(size_var.get(), ice_var))
+grape_var = tk.BooleanVar()
+grape_checkbox = tk.Checkbutton(root, text="Include 1 Grape (+$0.50)", variable=grape_var)
+grape_checkbox.pack()
+
+add_button = tk.Button(root, text="Add to Order", command=lambda: add_to_order(size_var.get(), ice_var, grape_var))
 add_button.pack()
 
 receipt_text = tk.StringVar()
