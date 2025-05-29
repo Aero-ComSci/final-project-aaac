@@ -5,7 +5,8 @@ import tkinter as tk
 prices = {
     "Small": 2.00,
     "Medium": 3.00,
-    "Large": 4.00
+    "Large": 4.00,
+    "Grapes": 4.00
 }
 print("Welcome furry lover to our lemonade stand")
 order = []
