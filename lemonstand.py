@@ -7,7 +7,6 @@ prices = {
     "Medium": 3.00,
     "Large": 4.00
 }
-print("Welcome furry lover to our lemonade stand")
 order = []
 
 def add_to_order(size, ice):
